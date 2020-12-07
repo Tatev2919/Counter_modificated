@@ -1,7 +1,7 @@
 module counter
   #(parameter N = 3)
   (
-	input clk,rst,
+    input clk,rst,
     inout [N-1:0] out_or_load,
     input we,trig,
     output out_pulse
